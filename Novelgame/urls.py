@@ -19,5 +19,4 @@ from django.urls import path,include
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'hp/', include(("hp.urls"))),
-    path('', include('backend.hcunovelgame.vercel.app'))
 ]
